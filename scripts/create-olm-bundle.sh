@@ -5,7 +5,7 @@ set -o pipefail
 
 LATEST_VERSION=$(grep cloud-resource-operator bundles/cloud-resource-operator.package.yaml | awk -F v '{print $2}')
 
-ORG="${IMAGE_ORG:-integreatly}"
+ORG="vmogilev_rhmi"
 REG="${IMAGE_REG:-quay.io}"
 BUILD_TOOL="${BUILD_TOOL:-podman}"
 CONTAINER_PLATFORM="${CONTAINER_PLATFORM:-linux/amd64}"

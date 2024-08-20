@@ -1,5 +1,5 @@
 # Build the manager binary	
-FROM registry.redhat.io/ubi9/go-toolset:1.20.12 AS builder
+FROM quay.io/vmogilev_rhmi/ubi9-go-toolset:1.20.12 AS builder
 
 # this is required for podman
 USER root

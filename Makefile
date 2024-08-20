@@ -1,7 +1,7 @@
 IMAGE_REG ?= quay.io
-IMAGE_ORG ?= integreatly
+IMAGE_ORG ?= vmogilev_rhmi
 IMAGE_NAME ?= cloud-resource-operator
-OPERATOR_IMG = $(IMAGE_REG)/$(IMAGE_ORG)/$(IMAGE_NAME):v$(VERSION)
+OPERATOR_IMG = quay.io/vmogilev_rhmi/cloud-resource-operator:v1.1.4
 CONTAINER_PLATFORM ?= linux/amd64
 MANIFEST_NAME ?= cloud-resources
 NAMESPACE=cloud-resource-operator
